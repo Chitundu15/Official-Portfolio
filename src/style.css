@@ -1,0 +1,60 @@
+:root{
+    --primary-color: #9294A8;
+}
+body{
+    background-image: url(/src/images/Laptop.jpg);
+    background-size: 100%;
+    background-position: top 200px right 10px;
+    background-repeat: no-repeat;
+    max-height: fit-content;
+    background-color: black;
+    color: var(--primary-color);
+    font-family: 'Merriweather', serif;
+    
+    text-align: center;
+}
+h1{
+    font-family: 'Merriweather', serif;
+font-family: 'Saira Stencil One', cursive;
+}
+h4{
+    text-align: center;
+}
+@media (max-width:500px) {
+    img{
+        max-width: 50px;
+    }
+    body{
+        background-position: top 300px right 10px;
+    }
+}
+@media (max-width:800px) {
+    body{
+        background-position: top 300px right 10px;
+    }
+}
+.main-body{
+    background: black;
+}
+.logo{
+    max-width: 50px;
+}
+.main-name{
+    font-family: 'Merriweather', serif;
+    font-family: 'Saira Stencil One', cursive;
+    text-align: center;
+    text-shadow: -2px 0px 7px rgba(181, 179, 183, 1);
+}
+.cv-link{
+    color:var(--primary-color);
+    background-color:#212529;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 20px;
+    text-decoration: none;
+}
+.cv-link:hover{
+    color: #6D7172;
+    background: var(--primary-color);
+    text-decoration: underline;
+}
