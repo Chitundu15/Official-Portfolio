@@ -66,3 +66,15 @@ p{
     color: var(--primary-color);
     text-decoration: underline;
 }
+.about-paragraphs{
+    margin-top: 100px;
+    text-align: left;
+}
+.git-icon,
+ .css-icon,
+ .js-icon,
+  .bootstrap-icon,
+   .html-icon,
+   .vs-icon{
+max-width: 60px;
+}
