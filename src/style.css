@@ -95,3 +95,28 @@ max-width: 60px;
 	justify-content: center;
 	align-items: center;
 }
+.about-links{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.about{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact-h1{
+    padding-top:40px ;
+}
+.contact-details{
+    margin-top: 50px;
+}
+.contact-paragraph{
+margin-top: 50px;
+}
+.contacts{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact-links{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
