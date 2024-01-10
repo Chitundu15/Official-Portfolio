@@ -11,88 +11,94 @@
     <link rel="stylesheet" href="/src/style.css">
   </head>
   <body class="main-body">
-    <nav class="navbar fixed-top navbar-expand-lg bg-dark navbar-dark mb-5">
-        <div class="container-fluid">
-            <img src="/src/images/3.png" class="logo img-fluid d-block d-md-none" alt="Chitundu logo">
-          <h1 class="d-none d-md-block">CHITUNDU MILIMBO</h1>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-5">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/work.html">My Work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                background-color: #f0f0f0;
+            }
+    
+            .browser-card {
+                width: 600px;
+                height: 300px;
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                overflow: hidden;
+                position: relative;
+            }
+    
+            .browser-bar {
+                height: 30px;
+                background-color: #f6f6f6;
+                border-bottom: 1px solid #ccc;
+                display: flex;
+                align-items: center;
+                padding: 0 10px;
+            }
+    
+            .browser-buttons {
+                display: flex;
+                gap: 5px;
+            }
+    
+            .browser-content {
+                height: calc(100% - 30px);
+                padding: 10px;
+                box-sizing: border-box;
+                overflow-y: auto;
+            }
+    
+            .address-bar {
+                width: 100%;
+                height: 30px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                padding: 0 10px;
+                margin-bottom: 10px;
+            }
+    
+            .web-page {
+                width: 100%;
+                height: 100%;
+                background-color: white;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                overflow: hidden;
+            }
+        </style>
+        <title>Browser Card</title>
+    </head>
+    <body>
+        <div class="browser-card">
+            <div class="browser-bar">
+                <div class="browser-buttons">
+              
+                </div>
+            </div>
+            <div class="browser-content">
+                <div class="address-bar">
+                    https://Chitundu Milimbo.com
+                </div>
+                <div class="web-page">
+                    <h1>HI! I'M CHITUNDU MILIMBO</h1>
+                    <p>I am a Software Developer!</p>
+                </div>
+            </div>
         </div>
-      </nav>
-      <div class="container mt-5">
-        <Header>
-            <h1 class="main-name pt-5 mt-5 mb-5">CHITUNDU MILIMBO</h1>
-            <h4 class="mb-5 pb-5">Front-end Developer based in Lusaka, Zambia.</h4>
-        </Header>
-        <div class="row mt-5">
-            <div class="col-md-4 text-center ">
-                <h1>
-                    CREATIVITY
-                </h1>
-                <img src="/src/images/creative-thinking.png" class="service-icons img-fluid" alt="creative-thinking">
-                <p class="service-text">
-                    I can come up with creative ideas inspired by you.
-                </p>
-            </div>
-            <div class="col-md-4 text-center">
-                <h1>UI DESIGN</h1>
-                <img src="/src/images/ux-design.png" class="service-icons img-fluid" alt="ux design logo">
-                <p class="service-text">Not satisfied with the idea alone? I can create a prototype to help you see the idea even clearer and make sure its user friendly too!</p>
-            </div>
-            <div class="col-md-4 text-center">
-                <h1>CODING</h1>
-                <img src="/src/images/coding.png" class="service-icons img-fluid" alt="coding">
-                <p class="service-text">Loved the prototype? I can bring the ideas to life by coding, I am skilled in HTML,CSS and JavaScript.</p>
-            </div>
-        </div>
-        <hr />
-        <section>
-          <h2 class="mt-5"><a href="/work.html" class="launch-link">PROJECTS</a></h2>
-            <div class="row">
-            <div class="col-md-6">
-                <img src="/src/images/Untitled design.png" class="img-fluid p-5 pb-0 rounded" title="weather app" alt="weather app">
-                <p>One of my first projects built with HTML,CSS, JavaScript and integration of an API</p>
-            </div>
-            
-            <div class="col-md-6">
-                <img src="/src/images/On phone.png" class="img-fluid p-5 pb-0 rounded" title="portfolio project" alt="portfolio">
-                <p>My first ever responsive website</p>
-            </div>
-        </div>
-        <hr />
-        <div class="mt-5 mb-5">
+    </body>
+    </html>
+    >
           
-          <h6> <a href="https://docs.google.com/document/d/1ReS9__rvPPP0JhC6PJRwX5vXIE94bOq3VgYvrc8amVo/edit?usp=sharing" target="_blank" class="launch-link">CV Link</a></h6>
-         </div>
-        </section>
-        <footer>
-         <div class="contact-links mb-3">
-          <span> <a href="https://www.linkedin.com/in/chitundu-milimbo-1b6445255/" target="_blank" class="linkedin-link"><img src="/src/images/linkedin-logo.png" class="icon-links linkedin-icon" alt="linkedin">  </a></span>
-          <span> <a href="https://github.com/Chitundu15" target="_blank" class="github-link p-5"><img src="/src/images/github.png" class="icon-links github-icon" alt="github"></a></span>
-          <span><a href="https://www.instagram.com/chitundu__m/" target="_blank"><img src="/src/images/instagram.png" class="icon-links instagram-link" alt="instagram"></a></span>
-          <div>
-            <a href="mailto:Milimbochitundu15@gmail.com" target="_blank" class="email-link">Milimbochitundu15@gmail.com</a>
-          </div>
-         </div>
-        </footer>
-      </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>

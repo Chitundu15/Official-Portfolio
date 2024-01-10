@@ -12,7 +12,8 @@ body{
 }
 h1{
     font-family: 'Merriweather', serif;
-font-family: 'Saira Stencil One', cursive;
+    font-weight: bolder;
+
 }
 h4{
     text-align: center;
