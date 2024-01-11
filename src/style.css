@@ -4,11 +4,34 @@
 a{
     text-decoration: none;
 }
-body{
-    background: black;
-    color: var(--primary-color);
-    font-family: 'Merriweather', serif;
-    text-align: center;
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #cd2aaa, #6a19e3); /* Initial background color */
+    transition: background 0.5s ease; /* Smooth transition */
+}
+
+body:hover {
+    background: linear-gradient(to right, #6a19e3, #cd2aaa); /* Updated colors on hover */
+}
+
+.gradient-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.hover-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
 }
 h1{
     font-family: 'Merriweather', serif;
