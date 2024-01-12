@@ -1,129 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Chitundu Milimbo's Portfolio Homepage</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Saira+Stencil+One&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.9.0"></script>
-    <link rel="stylesheet" href="/src/style.css">
-  </head>
-  <body class="main-body">
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-           
-    
-            .browser-card {
-                width: 600px;
-                height: 300px;
-                border: 1px solid #ccc;
-                border-radius: 10px;
-                overflow: hidden;
-                position: relative;
-            }
-    
-            .browser-bar {
-                height: 30px;
-                background-color: #f6f6f6;
-                border-bottom: 1px solid #ccc;
-                display: flex;
-                align-items: center;
-                padding: 0 10px;
-            }
-    
-            .browser-buttons {
-                display: flex;
-                gap: 5px;
-            }
-    
-            .browser-content {
-                height: calc(100% - 30px);
-                padding: 10px;
-                box-sizing: border-box;
-                overflow-y: auto;
-            }
-    
-            .address-bar {
-                width: 100%;
-                height: 30px;
-                border: 1px solid #ccc;
-                border-radius: 5px;
-                display: flex;
-                align-items: center;
-                padding: 0 10px;
-                margin-bottom: 10px;
-            }
-    
-            .web-page {
-                width: 100%;
-                height: 100%;
-                background-color: white;
-                border: 1px solid #ccc;
-                border-radius: 5px;
-                overflow: hidden;
-                padding-top: 10%;
-                padding-left: 10%;
-            }
-        </style>
-        <script>
-            document.addEventListener('DOMContentLoaded', () => {
-                const colors = ['#cd2aaa', '#6a19e3'];
-    
-                gsap.to('body', {
-                    background: `linear-gradient(to right, ${colors.join(', ')})`,
-                    duration: 2,
-                    repeat: -1,
-                    yoyo: true,
-                    ease: 'linear'
-                });
-            });
-        </script>
-        <title>Browser Card</title>
-    </head>
-    <body>
-        <div class="browser-card">
-            <div class="browser-bar">
-                <div class="browser-buttons">
-              
-                </div>
-            </div>
-            <div class="gradient-container">
-                <div class="hover-gradient">
-            <div class="browser-content">
-                <div class="web-page">
-                    <h1>HI! I'M CHITUNDU MILIMBO</h1>
-                    <p>I am a Software Developer!</p>
-                </div>
-            </div>
-            </div>
-        </div>
-    </body>
-    </html>         
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <!-- <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const body = document.querySelector('body');
-            const gradientContainer = document.querySelector('.gradient-container');
-
-            gradientContainer.addEventListener('mousemove', (event) => {
-                const x = (event.clientX / window.innerWidth) * 100;
-                const y = (event.clientY / window.innerHeight) * 100;
-                const gradient = `radial-gradient(circle at ${50}% ${50}%, #cd2aaa, #6a19e3)`;
-
-                body.style.background = gradient;
-            });
-
-            gradientContainer.addEventListener('mouseleave', () => {
-                body.style.background = 'linear-gradient( #cd2aaa, #6a19e3)';
-            });
-        });
-    </script> -->
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/src/style.css">
+  <script src="./src/app.js"></script>
+  <title>Typewriter Animation</title>
+</head>
+<body>
+    <div class="container">
+    <nav class="side-nav">
+      <div class="nav-logo">Logo</div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <hr>
+        <li><a href="#">About</a></li>
+        <hr>
+        <li><a href="#">Services</a></li>
+        <hr>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <header>
+         <div class="main-content">
+      <div><h1>Hi! I am Chitundu Milimbo</h1></div>
+      <div class="wrapper">
+        <div class="typing-demo">I am a Software Developer</div>
+      </div>
+    </div>
+    </header>
+    <section>
+        <p>
+            In the heart of the bustling city, where the rhythm of life beats in harmony with the pulse of the streets, there exists a hidden cafe. Its walls adorned with faded paintings and shelves lined with well-worn books, the air within carries the scent of freshly ground coffee. Amidst the gentle hum of conversations, the barista crafts each cup with precision, turning the ordinary into a moment of indulgence. The soft glow of the cafe's pendant lights casts a warm embrace over patrons, creating a haven where time seems to slow, and the outside world fades into a distant murmur.
+        </p>
+    </section>
+</div>
+</body>
 </html>
