@@ -1,105 +1,32 @@
-.container {
-  /* position: relative; */
-  background: #2a2438;
-  font-size: 1.2rem;
-  color: #dbd8e3;
-  margin: 0%;
-  padding: 0%;
-  overflow: hidden;
-  text-align: center;
-  font-family: 'Courier New', monospace;
-  padding: 50px;
-  display: flex;
-  flex-direction: row;
+body {
+    position: relative;
+    background: #2a2438 !important;
+    font-size: 1.2rem;
+    color: #dbd8e3;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Courier New', monospace;
+
+    /* margin: 2em auto; */
+    /* border: 6px solid rgba(190, 32, 32, 0.45); */
+    /* border-radius: 50px; */
+    /* padding: 1em 3em; */
 }
 
-.container:before {
-  --size: 0;
-  content: '';
-  position: absolute;
-  left: var(--x);
-  top: var(--y);
-  width: var(--size);
-  height: var(--size);
-  background: radial-gradient(circle closest-side, #352f44, transparent);
-  transform: translate(-50%, -50%);
-  transition: width 0s, height 0s, left 0s, top 0s;
-  pointer-events: none;
+body:before {
+    --size: 0;
+    content: '';
+    position: absolute;
+    left: var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closest-side, #352f44, transparent);
+    transform: translate(-50%, -50%);
+    transition: width 0s, height 0s, left 0s, top 0s;
+    pointer-events: none;
 }
 
-.container:hover:before {
-  --size: 200px;
-}
-
-.side-nav {
-  background-color: #2a2438;
-  color: #fff;
-  width: 250px;
-  height: 100vh;
-  padding-top: 50px;
-  padding-right: 20px;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-  display: inline-flex;
-  flex-direction: column;
-  align-self: center;
-}
-
-.nav-logo {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-li {
-  margin-bottom: 15px;
-  padding-top: 50%;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 18px;
-  transition: color 0.3s ease;
-}
-
-a:hover {
-  color: #ffcc00;
-}
-
-.main-content {
-  flex: 1;
-  padding: 20px;
-}
-
-h1,
-p {
-  margin-bottom: 20px;
-}
-
-.wrapper {
-  margin-top: 20px;
-}
-
-.typing-demo {
-  overflow: hidden;
-  white-space: nowrap;
-  font-size: 24px;
-  border-right: 1px solid #fff;
-  display: inline-block;
-  animation: typewriter 1s steps(30) 1s 1 normal both;
-}
-
-@keyframes typewriter {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
+body:hover:before {
+    --size: 200px;
 }
