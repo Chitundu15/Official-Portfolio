@@ -30,3 +30,75 @@ body:before {
 body:hover:before {
     --size: 200px;
 }
+.navbar {
+    background-color: #1E2025;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    color: #fff;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .hamburger {
+    display: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  .hamburger.is-active {
+    transform: rotate(90deg);
+  }
+  
+  /* Media query for responsiveness */
+  @media only screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #1E2025;
+      text-align: center;
+      
+
+    }
+  
+    .nav-links.active {
+      display: flex;
+     
+    }
+  
+    .nav-links li {
+      margin: 10px 0;
+    }
+  
+    .hamburger {
+      display: block;
+    }
+  }
