@@ -1,3 +1,82 @@
+/*Bootstrap colour overrides*/
+:root {
+    --primary-color: #2a2438;
+    --success-color: #dbd8e3;
+    --danger-color: #5c5470;
+  }
+  .bg-success {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  
+  .btn-success {
+    background-color: var(--success-color);
+    border-color: var(--success-color);
+  }
+  
+  .btn-danger {
+    background-color: var(--danger-color);
+    border-color: var(--danger-color);
+  }
+.progress{
+    margin: 10px;
+    margin-top: 50px;
+}
+body {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.chrome-card {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #d3d3d3;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* position: static; */
+    opacity: 50%;
+    margin: 2%;
+    display: inline-block;
+    background-color: white;
+
+    
+}
+
+.chrome-header {
+    background-color: #f8f8f8;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.chrome-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.chrome-content {
+    padding: 10px;
+    height: calc(100% - 30px);
+    overflow: auto;
+}
+
+
+header{
+    padding: 10px;
+    margin-top: 100px;
+}
+
+
+
+
 body {
     position: relative;
     background: #352f44 !important;
@@ -32,7 +111,7 @@ body:hover:before {
 }
 .navbar {
     background-color: #2a2438;
-    padding: 50px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,13 +138,13 @@ body:hover:before {
   
   .nav-links a {
     text-decoration: none;
-    color: #fff;
+    color: #dbd8e3;
     font-weight: bold;
   }
   
   .hamburger {
     display: none;
-    color: #fff;
+    color: #dbd8e3;
     font-size: 24px;
     cursor: pointer;
     transition: transform 0.3s ease;
@@ -104,7 +183,7 @@ body:hover:before {
   }
 
   .name{
-    margin-top: 100px;
+    /* margin-top: 100px; */
     padding: 20px;
 }
 
@@ -121,6 +200,7 @@ body:hover:before {
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
+    border-width: 10px;
     font-family: monospace;
     font-size: 2em;
   }
@@ -136,3 +216,4 @@ body:hover:before {
       border-color: transparent
     }
   }
+  
