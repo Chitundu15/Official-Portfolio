@@ -32,9 +32,9 @@
       <div class="chrome-header">
           <span><img src="./src/images/download.jpg" alt="buttons" width="20px"> <img src="./src/images/thumbnail.png" alt="back-forward" width="40px"><input type="search" name="searchbar" id="searchbar" placeholder="Chitundu Milimbo"> <img src="./src/images/download.png" alt="reload" width="20px"></span>
           <div class="chrome-buttons">
+              <!-- <div></div>
               <div></div>
-              <div></div>
-              <div></div>
+              <div></div> -->
           </div>
       </div>
       <div class="main-content">
@@ -90,5 +90,34 @@
         </button>
       </div>
     </section>
+    <footer>
+        <div class="container contact-form">
+          <h2 style="color: #dbd8e3; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">Contact</h2>
+          <form action="mail.php" method="post">
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input class="inputs" type="text" id="name" name="name" required>
+            </div>
+        
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input class="inputs" type="email" id="email" name="email" required>
+            </div>
+        
+            <div class="form-group">
+              <label for="subject">Subject:</label>
+              <input class="inputs" type="text" id="subject" name="subject" required>
+            </div>
+        
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea class="inputs" id="message" name="message" rows="5" required></textarea>
+            </div>
+        
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      <p>&copy; 2024 Chitundu Milimbo. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
