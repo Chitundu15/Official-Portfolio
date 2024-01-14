@@ -22,8 +22,7 @@ try {
     $mail->Password = 'mhynbsqbeigdfrjx';
     $mail->SMTPSecure = 'tls'; // or 'ssl'
     $mail->Port = 587; // or 465
-    // $mail->SMTPDebug = 2; 
-    // 2 for detailed debug output
+    // $mail->SMTPDebug = 2; // 2 for detailed debug output
 
 
     // Set other email parameters

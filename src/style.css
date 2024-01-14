@@ -4,6 +4,12 @@
     --success-color: #dbd8e3;
     --danger-color: #5c5470;
   }
+  .linkedin:hover {
+    width: 40px;
+  }
+  .github:hover {
+    width: 40px;
+  }
   .bg-success {
     background-color: var(--primary-color) !important;
   }
@@ -36,7 +42,7 @@ body {
 }
 
 .chrome-card {
-    width: 100%;
+    width: 99%;
     height: 300px;
     border: 1px solid #d3d3d3;
     border-radius: 10px;
@@ -87,7 +93,7 @@ header{
 body {
     position: relative;
     background: #352f44 !important;
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     color: #dbd8e3 !important;
     /* overflow: hidden; */
     text-align: center !important;
