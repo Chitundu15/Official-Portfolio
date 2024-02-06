@@ -257,7 +257,7 @@ body:hover:before {
     box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.5);
   }
 
-  button {
+  .form-button {
     background-color: #1e2025;
     color: #fff;
     border: none;
@@ -266,6 +266,6 @@ body:hover:before {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   }
 
-  button:hover {
+  .form-button:hover {
     background-color: #2a2438;
   }
